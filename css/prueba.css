@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(136, 120, 120);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.textoLogo b{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.barraDeTarea{
+    display: flex;
+}
+
+.texto{
+    font-size: 20px;
+    margin-left:20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__contenedor{
+    display: flex;
+    color: black;
+    height:calc(100vh - 70px);
+    align-items: center;
+}
+
+.hero{
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/imagenes/ba1.jpg);
+    background-size: cover;
+    
+}
+
+.hero img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: opacity(0.6) drop-shadow(0 0 0 black); 
+}
+
+.heroTexto{
+    position:absolute;
+    margin: 50px;;
+    height: 200px;
+    width: 600px;
+    top: 300px;
+    left: 500px;
+}
+.heroTexto p{
+    color: white;
+}
+
+.heroTexto h1{
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+
+.heroTexto p{
+    height: 80px;
+    display: flex;
+    justify-content: end;
+}
+
+.heroBoton{
+    display: flex;
+    justify-content: end;
+}
+
+.heroBoton h1{
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.n1{
+    border: 3px solid white;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.n2{
+    border: 3px solid white;
+    background-color: green ;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.oradores{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.etiqueta{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 20px;
+    display: flex;
+}
+
+.etiqueta1{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.etiqueta2{
+    margin-right: 10px;
+    font-size: 20px;
+    border: 10px solid black;
+
+}
+
+.card mb-3{
+    width: 80%;
+    height: 800px;
+}
+
+.resumen{
+    width: 100%;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    border: 2px solid black;
+}
+
+.paisaje{
+    background-image: url(/imagenes/honolulu.jpg);
+    background-size: cover;
+    width: 4000px;
+}
+.textoPaisaje p{
+    margin:20px
+}
+
+.textoPaisaje h1{
+    height: 50px;
+    margin: 20px;
+}
+
+.formularios{
+    height:500px ;
+    width: 100%;
+    background-color: black;
+    grid-template-areas: 
+            "a a"
+            "b b"
+            "b b";
+}
+
+.final{
+    align-items: center;
+    text-align: center;
+    height: 300px;
+}
+
+.nose{
+    height: 50px;
+}
+
+.final h1{
+    height: 50px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.primera input{
+    height: 50px;
+    width: 500px;
+    margin-right:100px ;
+}
+
+.comentario{
+    width:1000px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+.formularios{
+    text-align: center;
+    align-items: center;
+}
+
+.primera {
+    height: 100px;
+}
+
